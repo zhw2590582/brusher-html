@@ -1,0 +1,17 @@
+{
+  "name": "brusher-html",
+  "version": "1.0.0",
+  "description": "Wordpress 博客主题 Brusher 静态文件",
+  "license": "MIT",
+  "repository": "zhw2590582/brusher-html",
+  "authors": ["Harvey Zack <laozhaochaguan@gmail.com>"],
+  "scripts": {
+    "dev": "",
+    "build": ""
+  },
+  "keywords": ["wordpress", "theme", "brusher", "html"],
+  "bugs": {
+    "url": "https://github.com/zhw2590582/brusher-html/issues"
+  },
+  "homepage": "https://github.com/zhw2590582/brusher-html#readme"
+}
