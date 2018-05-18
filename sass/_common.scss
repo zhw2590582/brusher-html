@@ -13,6 +13,7 @@ html {
   -webkit-tap-highlight-color: transparent;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
 }
 
 body {
@@ -145,4 +146,25 @@ img {
 
 .f24 {
   font-size: 24px;
+}
+
+.container {
+  width: $container_w;
+  margin: 0 auto;
+}
+
+body {
+  background-image: url(./img/body_bg.jpg);
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.wrap {
+  position: relative;
+  height: 100%;
+  padding: $top_h 0 0;
 }

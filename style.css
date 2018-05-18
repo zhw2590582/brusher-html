@@ -361,6 +361,7 @@ html {
   -webkit-tap-highlight-color: transparent;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
 }
 
 body {
@@ -492,5 +493,60 @@ img {
 
 .f24 {
   font-size: 24px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+body {
+  background-image: url(./img/body_bg.jpg);
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.wrap {
+  position: relative;
+  height: 100%;
+  padding: 200px 0 0;
+}
+
+.content {
+  position: relative;
+  background: #fff;
+  height: 1500px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.sidebar {
+  position: absolute;
+  top: 0;
+  right: -240px;
+  width: 220px;
+  background: #fff;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.pagination {
+  position: relative;
+  background: #fff;
+  height: 50px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.footer {
+  position: relative;
+  background: #fff;
+  height: 200px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 /*# sourceMappingURL=style.css.map */
