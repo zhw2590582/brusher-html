@@ -155,8 +155,8 @@ img {
 }
 
 body {
+  color: $f_color;
   background-image: url(./img/body_bg.png);
-  background-color: #fff;
   background-attachment: fixed;
   height: 100%;
 }
@@ -165,4 +165,17 @@ body {
   position: relative;
   height: 100%;
   padding: $top_h 0 0;
+}
+
+a {
+  color: $a_color;
+  &:hover {
+    color: $a_h_color;
+  }
+}
+
+.post-line {
+  width: 100%;
+  display: block;
+  height: 2px;
 }

@@ -502,8 +502,8 @@ img {
 }
 
 body {
+  color: #666;
   background-image: url(./img/body_bg.png);
-  background-color: #fff;
   background-attachment: fixed;
   height: 100%;
 }
@@ -514,9 +514,23 @@ body {
   padding: 100px 0 0;
 }
 
+a {
+  color: #666;
+}
+
+a:hover {
+  color: #000;
+}
+
+.post-line {
+  width: 100%;
+  display: block;
+  height: 2px;
+}
+
 .content {
   position: relative;
-  height: 1500px;
+  min-height: 1000px;
   border-radius: 5px;
   margin-bottom: 20px;
   background: #fff;
@@ -524,7 +538,7 @@ body {
 
 .content .header .profile .profile-header {
   display: block;
-  padding: 0 15px 10px;
+  padding: 0 15px 15px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   background-repeat: no-repeat;
@@ -536,14 +550,14 @@ body {
   width: 90px;
   height: 90px;
   padding: 5px;
-  margin-top: -40px;
+  margin-top: -35px;
   border-radius: 5px;
   margin-right: 15px;
   background: #fff;
 }
 
 .content .header .profile .profile-header .profile-name {
-  padding: 7px 0 0;
+  padding: 12px 0 0;
   max-width: 360px;
 }
 
@@ -552,7 +566,7 @@ body {
 }
 
 .content .header .profile .profile-content {
-  padding: 15px 15px;
+  padding: 10px 15px;
   line-height: 2;
 }
 
@@ -573,14 +587,9 @@ body {
   display: inline-block;
   width: 100%;
   height: 100%;
-  color: #000;
 }
 
-.content .header .profile .profile-social li a:hover {
-  background: #9df59d;
-}
-
-.content .main-menu {
+.content .header .main-menu {
   display: block;
   height: 50px;
   line-height: 50px;
@@ -588,9 +597,47 @@ body {
   --wired-combo-item-hover-bg: #9df59d;
 }
 
-.content .main-menu .menu-item {
-  width: 19.3%;
+.content .header .main-menu .menu-item {
+  width: 19.4%;
   text-align: center;
+}
+
+.content .slider {
+  display: block;
+  margin-top: 15px;
+  padding: 15px;
+  color: #666;
+}
+
+.content .slider .slider-inner {
+  height: 250px;
+  overflow: hidden;
+}
+
+.content .posts {
+  display: block;
+  margin-top: 15px;
+}
+
+.content .posts .post {
+  display: block;
+  margin-top: 15px;
+  padding: 15px 0;
+}
+
+.content .posts .post .post-featured {
+  padding: 0 15px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.content .posts .post .post-featured a {
+  display: block;
+}
+
+.content .posts .post .post-content {
+  padding: 0 15px;
+  height: 200px;
 }
 
 .sidebar {

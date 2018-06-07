@@ -1,6 +1,6 @@
 .content {
     position: relative;
-    height: 1500px;
+    min-height: 1000px;
     border-radius: $radius_w;
     margin-bottom: 20px;
     background: $bg_color;
@@ -8,7 +8,7 @@
         .profile {
             .profile-header {
                 display: block;
-                padding: 0 15px 10px;
+                padding: 0 15px 15px;
                 border-top-left-radius: $radius_w;
                 border-top-right-radius: $radius_w;
                 background-repeat: no-repeat;
@@ -18,13 +18,13 @@
                     width: 90px;
                     height: 90px;
                     padding: 5px;
-                    margin-top: -40px;
+                    margin-top: -35px;
                     border-radius: $radius_w;
                     margin-right: 15px;
                     background: $bg_color;
                 }
                 .profile-name{
-                    padding: 7px 0 0;
+                    padding: 12px 0 0;
                     max-width: 360px;
                     .name_inner{
                         margin-bottom: 5px;
@@ -35,7 +35,7 @@
                 }
             }
             .profile-content {
-                padding: 15px 15px;
+                padding: 10px 15px;
                 line-height: 2;
             }
             .profile-social {
@@ -51,29 +51,54 @@
                       display: inline-block;
                       width: 100%;
                       height: 100%;
-                      color: #000;
-                      &:hover {
-                        background: #9df59d;
-                      }
                   }
                 }
             }
         }
-    }
-    
-    .main-menu {
-        display: block;
-        height: 50px;
-        line-height: 50px;
-        --wired-combo-item-selected-bg: #fff59d;
-        --wired-combo-item-hover-bg: #9df59d;
-        .menu-item {
-            width: 19.3%;
-            text-align: center;
+        .main-menu {
+            display: block;
+            height: 50px;
+            line-height: 50px;
+            --wired-combo-item-selected-bg: #fff59d;
+            --wired-combo-item-hover-bg: #9df59d;
+            .menu-item {
+                width: 19.4%;
+                text-align: center;
+            }
         }
     }
+    
+    .slider {
+        display: block;
+        margin-top: 15px;
+        padding: 15px;
+        color: #666;
+        .slider-inner {
+            height: 250px;
+            overflow: hidden;
+        }
+    }    
 
     .posts {
-        
+        display: block;
+        margin-top: 15px;
+        .post {
+            display: block;
+            margin-top: 15px;
+            padding: 15px 0;
+            .post-featured {
+                padding: 0 15px;
+                height: 150px;
+                overflow: hidden;
+                a {
+                    display: block;
+                }
+            }
+
+            .post-content {
+                padding: 0 15px;
+                height: 200px;
+            }
+        }
     }
 }

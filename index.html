@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>brusher-html</title>
+    <title>老赵茶馆 - 少年，你有多忧伤</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0,minimal-ui">
-    <meta name="keywords" content="brusher-html">
-    <meta name="description" content="brusher-html">
+    <meta name="keywords" content="老赵茶馆">
+    <meta name="description" content="老赵茶馆">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link rel="shortcut icon" href="./img/favicon.ico" title="favicon">
@@ -16,75 +16,140 @@
 </head>
 
 <body>
+    <!-- wrap begin -->
     <div class="wrap container">
+        <!-- content begin -->
         <wired-card class="content">
+            <!-- header begin -->
             <wired-card class="header">
+                <!-- profile begin -->
                 <div class="profile">
-                    <wired-card class="profile-header clearfix">
+                    <div class="profile-header clearfix">
                         <wired-card class="profile-avatar fl">
                             <img src="./img/avatar.png" alt="">
                         </wired-card>
                         <div class="profile-name fl">
-                            <p class="f18 text-ellipsis name_inner">HarveyZack</p>
+                            <p class="f18 text-ellipsis name_inner">
+                                <a href="#">HarveyZack</a>
+                            </p>
                             <p class="f14 text-ellipsis title_inner">
                                 <i class="fa fa-check-circle f14" aria-hidden="true"></i>
                                 知名互联网资讯博主 微博签约自媒体
                             </p>
                         </div>
-                    </wired-card>
-                    <div class="profile-content f13">
+                    </div>
+                    <wired-card class="post-line"></wired-card>
+                    <div class="profile-content f14">
                         Hi，老赵其实不老，只是个九零后青年，属性为UI设计，技能为前端开发，目标为自由插画师，爱互联网，爱美术，爱游戏，爱电影，爱音乐，爱萝莉，爱御姐...
                     </div>
+                    <wired-card class="post-line"></wired-card>
                     <ul class="profile-social f18 clearfix">
                         <li>
-                            <a href="http://weibo.com/qq717995589" class="with-tooltip" data-tooltip="微博：老赵-茶馆" target="_black">
+                            <a href="http://weibo.com/qq717995589">
                                 <i class="fa fa-weibo"></i>
                             </a>
+                            <wired-tooltip position="bottom" text="九零后青年1"></wired-tooltip>
                         </li>
                         <li>
-                            <a href="javascript:void(0)" class="with-tooltip" data-tooltip="QQ：717995589">
+                            <a href="javascript:void(0)">
                                 <i class="fa fa-qq"></i>
                             </a>
+                            <wired-tooltip position="bottom" text="九零后青年2"></wired-tooltip>
                         </li>
                         <li>
-                            <a href="javascript:void(0)" class="with-tooltip" data-tooltip="微信：laozhaochaguan">
+                            <a href="javascript:void(0)">
                                 <i class="fa fa-weixin"></i>
                             </a>
+                            <wired-tooltip position="bottom" text="九零后青年3"></wired-tooltip>
                         </li>
                         <li>
-                            <a href="https://github.com/zhw2590582" class="with-tooltip" data-tooltip="Github：zhw2590582" target="_black">
+                            <a href="https://github.com/zhw2590582">
                                 <i class="fa fa-github"></i>
                             </a>
+                            <wired-tooltip position="bottom" text="九零后青年4"></wired-tooltip>
                         </li>
                         <li>
-                            <a href="https://dribbble.com/HarveyZack" class="with-tooltip" data-tooltip="dribbble" target="_black">
+                            <a href="https://dribbble.com/HarveyZack">
                                 <i class="fa fa-dribbble"></i>
                             </a>
+                            <wired-tooltip position="bottom" text="九零后青年5"></wired-tooltip>
                         </li>
                     </ul>
                 </div>
+                <!-- profile end -->
+
+                <!-- menu begin -->
+                <wired-listbox horizontal selected="1" class="main-menu">
+                    <wired-item value="1" text="No. one" class="menu-item"></wired-item>
+                    <wired-item value="2" text="No. two" class="menu-item"></wired-item>
+                    <wired-item value="3" text="No. three" class="menu-item"></wired-item>
+                    <wired-item value="4" text="No. four" class="menu-item"></wired-item>
+                    <wired-item value="5" text="No. five" class="menu-item"></wired-item>
+                </wired-listbox>
+                <!-- menu end -->
             </wired-card>
+            <!-- header end -->
+
+            <!-- sidebar begin -->
             <wired-card class="sidebar">
                 sidebar
             </wired-card>
-            <wired-listbox horizontal selected="two" class="main-menu">
-                <wired-item value="one" text="No. one" class="menu-item"></wired-item>
-                <wired-item value="two" text="No. two" class="menu-item"></wired-item>
-                <wired-item value="three" text="No. three" class="menu-item"></wired-item>
-                <wired-item value="four" text="No. four" class="menu-item"></wired-item>
-                <wired-item value="five" text="No. five" class="menu-item"></wired-item>
-            </wired-listbox>
-            <section class="posts">
-                posts
-            </section>
+            <!-- sidebar end -->
+
+            <wired-card class="slider">
+                <div class="slider-inner">
+                    <img src="./img/slider.jpg" alt="">
+                </div>
+            </wired-card>
+
+            <!-- posts begin -->
+            <wired-card class="posts">
+                <!-- post begin -->
+                <div class="post">
+                    <div class="post-featured">
+                        <a href="#">
+                            <img src="./img/featured.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="post-content">
+                        content
+                    </div>
+                </div>
+                <wired-card class="post-line"></wired-card>
+                <!-- post end -->
+
+                <!-- post begin -->
+                <div class="post">
+                    <div class="post-featured">
+                        <a href="#">
+                            <img src="./img/featured.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="post-content">
+                        content
+                    </div>
+                </div>
+                <wired-card class="post-line"></wired-card>
+                <!-- post end -->
+            </wired-card>
+            <!-- posts end -->
+
         </wired-card>
+        <!-- content end -->
+
+        <!-- pagination end -->
         <wired-card class="pagination">
             pagination
         </wired-card>
+        <!-- pagination end -->
+
+        <!-- footer end -->
         <wired-card class="footer">
             footer
         </wired-card>
+        <!-- footer end -->
     </div>
+    <!-- wrap end -->
     <script src="./js/jquery.js"></script>
     <script src="./js/wired-elements.js"></script>
     <script src="./js/main.js"></script>
