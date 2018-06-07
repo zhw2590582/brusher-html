@@ -1,6 +1,7 @@
 .pagination{
+    display: block;
     position: relative;
-    background: #fff;
+    background: $bg_color;
     height: 50px;
     border-radius: $radius_w;
     margin-bottom: 20px;

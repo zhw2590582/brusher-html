@@ -17,13 +17,13 @@
 
 <body>
     <div class="wrap container">
-        <section class="content">
-            <header class="header">
+        <wired-card class="content">
+            <wired-card class="header">
                 <div class="profile">
-                    <div class="profile-header clearfix">
-                        <div class="profile-avatar fl">
+                    <wired-card class="profile-header clearfix">
+                        <wired-card class="profile-avatar fl">
                             <img src="./img/avatar.png" alt="">
-                        </div>
+                        </wired-card>
                         <div class="profile-name fl">
                             <p class="f18 text-ellipsis name_inner">HarveyZack</p>
                             <p class="f14 text-ellipsis title_inner">
@@ -31,7 +31,7 @@
                                 知名互联网资讯博主 微博签约自媒体
                             </p>
                         </div>
-                    </div>
+                    </wired-card>
                     <div class="profile-content f13">
                         Hi，老赵其实不老，只是个九零后青年，属性为UI设计，技能为前端开发，目标为自由插画师，爱互联网，爱美术，爱游戏，爱电影，爱音乐，爱萝莉，爱御姐...
                     </div>
@@ -63,25 +63,30 @@
                         </li>
                     </ul>
                 </div>
-            </header>
-            <section class="sidebar">
+            </wired-card>
+            <wired-card class="sidebar">
                 sidebar
-            </section>
-            <nav class="menu">
-                menu
-            </nav>
+            </wired-card>
+            <wired-listbox horizontal selected="two" class="main-menu">
+                <wired-item value="one" text="No. one" class="menu-item"></wired-item>
+                <wired-item value="two" text="No. two" class="menu-item"></wired-item>
+                <wired-item value="three" text="No. three" class="menu-item"></wired-item>
+                <wired-item value="four" text="No. four" class="menu-item"></wired-item>
+                <wired-item value="five" text="No. five" class="menu-item"></wired-item>
+            </wired-listbox>
             <section class="posts">
                 posts
             </section>
-        </section>
-        <section class="pagination">
+        </wired-card>
+        <wired-card class="pagination">
             pagination
-        </section>
-        <footer class="footer">
+        </wired-card>
+        <wired-card class="footer">
             footer
-        </footer>
+        </wired-card>
     </div>
     <script src="./js/jquery.js"></script>
+    <script src="./js/wired-elements.js"></script>
     <script src="./js/main.js"></script>
 </body>
 
