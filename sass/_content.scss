@@ -4,6 +4,22 @@
     margin-bottom: 20px;
     background: $bg_color;
     .header {
+        position: relative;
+        .notice {
+            position: absolute;
+            top: -35px;
+            left: 120px;
+            width: $container_w - 120px;
+            height: 32px;
+            line-height: 32px;
+            padding: 0 15px 0 30px;
+            background: $bg_color;
+            .fa {
+                position: absolute;
+                left: 10px;
+                top: 9px;
+            }
+        }
         .profile {
             .profile-header {
                 display: block;

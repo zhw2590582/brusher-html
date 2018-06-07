@@ -497,13 +497,14 @@ img {
 }
 
 .container {
-  width: 600px;
+  width: 700px;
   margin: 0 auto;
 }
 
 body {
   color: #666;
   background-image: url(./img/body_bg.png);
+  background-position: 0 0;
   background-attachment: fixed;
   height: 100%;
 }
@@ -511,7 +512,7 @@ body {
 .wrap {
   position: relative;
   height: 100%;
-  padding: 100px 0 0;
+  padding: 120px 0 0;
 }
 
 a {
@@ -543,6 +544,27 @@ a:hover {
   min-height: 1000px;
   margin-bottom: 20px;
   background: #fff;
+}
+
+.content .header {
+  position: relative;
+}
+
+.content .header .notice {
+  position: absolute;
+  top: -35px;
+  left: 120px;
+  width: 580px;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 15px 0 30px;
+  background: #fff;
+}
+
+.content .header .notice .fa {
+  position: absolute;
+  left: 10px;
+  top: 9px;
 }
 
 .content .header .profile .profile-header {

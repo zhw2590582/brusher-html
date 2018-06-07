@@ -157,6 +157,8 @@ img {
 body {
   color: $f_color;
   background-image: url(./img/body_bg.png);
+  // background-size: cover;
+  background-position: 0 0;
   background-attachment: fixed;
   height: 100%;
 }

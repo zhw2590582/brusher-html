@@ -22,6 +22,15 @@
         <wired-card class="content">
             <!-- header begin -->
             <wired-card class="header">
+                <!-- notice begin -->
+                <wired-card class="notice f14">
+                    <div class="notice-inner text-ellipsis">
+                        <i class="fa fa-bell-o fl" aria-hidden="true"></i>
+                        Gloom 正式版发布，售价88元，欲购从速。Gloom 正式版发布，售价88元，欲购从速。
+                    </div>
+                </wired-card>
+                <!-- notice end -->
+
                 <!-- profile begin -->
                 <div class="profile">
                     <div class="profile-header clearfix">
@@ -29,6 +38,7 @@
                             <a href="#">
                                 <img src="./img/avatar.png" alt="">
                             </a>
+                            <wired-tooltip position="top" text="喵喵喵..."></wired-tooltip>
                         </wired-card>
                         <div class="profile-name fl">
                             <p class="f18 text-ellipsis name_inner">
@@ -175,7 +185,13 @@
     <!-- wrap end -->
     <script src="./js/jquery.js"></script>
     <script src="./js/wired-elements.js"></script>
+    <script src="./js/brusher.js"></script>
     <script src="./js/main.js"></script>
+    <script>
+        (function ($) {
+            // 
+        })(jQuery);
+    </script>
 </body>
 
 </html>
