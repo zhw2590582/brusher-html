@@ -178,4 +178,14 @@ a {
   width: 100%;
   display: block;
   height: 2px;
+
+  &.sub {
+    opacity: 0.5;
+  }
+}
+
+.img-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }

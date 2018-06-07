@@ -26,7 +26,9 @@
                 <div class="profile">
                     <div class="profile-header clearfix">
                         <wired-card class="profile-avatar fl">
-                            <img src="./img/avatar.png" alt="">
+                            <a href="#">
+                                <img src="./img/avatar.png" alt="">
+                            </a>
                         </wired-card>
                         <div class="profile-name fl">
                             <p class="f18 text-ellipsis name_inner">
@@ -34,7 +36,7 @@
                             </p>
                             <p class="f14 text-ellipsis title_inner">
                                 <i class="fa fa-check-circle f14" aria-hidden="true"></i>
-                                知名互联网资讯博主 微博签约自媒体
+                                一枚会设计的前端攻城狮
                             </p>
                         </div>
                     </div>
@@ -80,39 +82,51 @@
 
                 <!-- menu begin -->
                 <wired-listbox horizontal selected="1" class="main-menu">
-                    <wired-item value="1" text="No. one" class="menu-item"></wired-item>
-                    <wired-item value="2" text="No. two" class="menu-item"></wired-item>
-                    <wired-item value="3" text="No. three" class="menu-item"></wired-item>
-                    <wired-item value="4" text="No. four" class="menu-item"></wired-item>
-                    <wired-item value="5" text="No. five" class="menu-item"></wired-item>
+                    <wired-item value="1" text="关于" class="menu-item"></wired-item>
+                    <wired-item value="2" text="归档" class="menu-item"></wired-item>
+                    <wired-item value="3" text="留意" class="menu-item"></wired-item>
+                    <wired-item value="4" text="邻居" class="menu-item"></wired-item>
+                    <wired-item value="5" text="主题" class="menu-item"></wired-item>
                 </wired-listbox>
                 <!-- menu end -->
             </wired-card>
             <!-- header end -->
 
             <!-- sidebar begin -->
-            <wired-card class="sidebar">
+            <wired-card class="sidebar hide">
                 sidebar
             </wired-card>
             <!-- sidebar end -->
 
+            <!-- slider begin -->
             <wired-card class="slider">
                 <div class="slider-inner">
-                    <img src="./img/slider.jpg" alt="">
+                    <img src="./img/slider.png" alt="">
                 </div>
             </wired-card>
+            <!-- slider end -->
 
             <!-- posts begin -->
             <wired-card class="posts">
                 <!-- post begin -->
                 <div class="post">
+                    <wired-card class="post-date">
+                        2017 年 09 月 23 日
+                    </wired-card>
                     <div class="post-featured">
+                        <a href="#" class="img-bg" style="background-image: url(./img/featured.png)"></a>
+                    </div>
+                    <div class="post-title">
                         <a href="#">
-                            <img src="./img/featured.jpg" alt="">
+                            自适应WordPress主题Gloom–付费主题–88元自适应WordPress主题Gloom–付费主题–88元
                         </a>
+                        <wired-card class="post-line sub"></wired-card>
                     </div>
                     <div class="post-content">
-                        content
+                        算是我第五个wordpress主题了，平均下来每年出一个主题，也是不容易。 每个主题都像一个深坑，一旦踏入就要一直填补，好在有前面深坑的教训，每个新坑填得越来越快，但也是费体力脑力。 也根据前面四个主题的经验，越纹理化的主题越难定制和修改，我尝试提供各种方法让用户自定义我的主题。 事实上用户更偏向于开箱即用的主题，更别说个性化，毕竟不是人人都想学代码写代码。 Gloom是三栏主题，有两个皮肤，貌似更偏向于扁平化，也是拟物化的我向扁平化大佬低头了。 整体框架也是继承于以往的主题，所以使用说明也是直接参考上
+                    </div>
+                    <div class="post-mate">
+                        post-mate
                     </div>
                 </div>
                 <wired-card class="post-line"></wired-card>
@@ -120,20 +134,29 @@
 
                 <!-- post begin -->
                 <div class="post">
+                    <wired-card class="post-date">
+                        2017 年 09 月 23 日
+                    </wired-card>
                     <div class="post-featured">
+                        <a href="#" class="img-bg" style="background-image: url(./img/featured.png)"></a>
+                    </div>
+                    <div class="post-title">
                         <a href="#">
-                            <img src="./img/featured.jpg" alt="">
+                            自适应WordPress主题Gloom–付费主题–88元自适应WordPress主题Gloom–付费主题–88元
                         </a>
+                        <wired-card class="post-line sub"></wired-card>
                     </div>
                     <div class="post-content">
-                        content
+                        算是我第五个wordpress主题了，平均下来每年出一个主题，也是不容易。 每个主题都像一个深坑，一旦踏入就要一直填补，好在有前面深坑的教训，每个新坑填得越来越快，但也是费体力脑力。 也根据前面四个主题的经验，越纹理化的主题越难定制和修改，我尝试提供各种方法让用户自定义我的主题。 事实上用户更偏向于开箱即用的主题，更别说个性化，毕竟不是人人都想学代码写代码。 Gloom是三栏主题，有两个皮肤，貌似更偏向于扁平化，也是拟物化的我向扁平化大佬低头了。 整体框架也是继承于以往的主题，所以使用说明也是直接参考上
+                    </div>
+                    <div class="post-mate">
+                        post-mate
                     </div>
                 </div>
                 <wired-card class="post-line"></wired-card>
                 <!-- post end -->
             </wired-card>
             <!-- posts end -->
-
         </wired-card>
         <!-- content end -->
 

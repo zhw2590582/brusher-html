@@ -528,10 +528,19 @@ a:hover {
   height: 2px;
 }
 
+.post-line.sub {
+  opacity: 0.5;
+}
+
+.img-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
 .content {
   position: relative;
   min-height: 1000px;
-  border-radius: 5px;
   margin-bottom: 20px;
   background: #fff;
 }
@@ -539,8 +548,6 @@ a:hover {
 .content .header .profile .profile-header {
   display: block;
   padding: 0 15px 15px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -551,7 +558,6 @@ a:hover {
   height: 90px;
   padding: 5px;
   margin-top: -35px;
-  border-radius: 5px;
   margin-right: 15px;
   background: #fff;
 }
@@ -565,9 +571,13 @@ a:hover {
   margin-bottom: 5px;
 }
 
+.content .header .profile .profile-header .profile-name .title_inner .fa {
+  color: #000;
+}
+
 .content .header .profile .profile-content {
-  padding: 10px 15px;
-  line-height: 2;
+  padding: 15px 15px;
+  line-height: 1.5;
 }
 
 .content .header .profile .profile-social {
@@ -620,24 +630,53 @@ a:hover {
 }
 
 .content .posts .post {
+  position: relative;
   display: block;
   margin-top: 15px;
   padding: 15px 0;
 }
 
+.content .posts .post .post-date {
+  position: absolute;
+  left: -100px;
+  top: 0;
+  width: 80px;
+  height: 80px;
+  background: #fff;
+}
+
 .content .posts .post .post-featured {
   padding: 0 15px;
   height: 150px;
-  overflow: hidden;
 }
 
 .content .posts .post .post-featured a {
   display: block;
+  height: 100%;
+}
+
+.content .posts .post .post-title {
+  padding: 0 20px;
+  margin-top: 15px;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 .content .posts .post .post-content {
-  padding: 0 15px;
-  height: 200px;
+  position: relative;
+  display: block;
+  margin-top: 15px;
+  padding: 0 20px;
+  line-height: 1.7;
+  font-size: 14px;
+  max-height: 160px;
+  overflow: hidden;
+}
+
+.content .posts .post .post-mate {
+  margin-top: 15px;
+  padding: 0 20px;
+  height: 20px;
 }
 
 .sidebar {

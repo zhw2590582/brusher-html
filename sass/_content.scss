@@ -1,7 +1,6 @@
 .content {
     position: relative;
     min-height: 1000px;
-    border-radius: $radius_w;
     margin-bottom: 20px;
     background: $bg_color;
     .header {
@@ -9,8 +8,6 @@
             .profile-header {
                 display: block;
                 padding: 0 15px 15px;
-                border-top-left-radius: $radius_w;
-                border-top-right-radius: $radius_w;
                 background-repeat: no-repeat;
                 background-size: cover;
                 .profile-avatar {
@@ -19,7 +16,6 @@
                     height: 90px;
                     padding: 5px;
                     margin-top: -35px;
-                    border-radius: $radius_w;
                     margin-right: 15px;
                     background: $bg_color;
                 }
@@ -30,13 +26,15 @@
                         margin-bottom: 5px;
                     }
                     .title_inner{
-
+                        .fa {
+                            color: #000;
+                        }
                     }
                 }
             }
             .profile-content {
-                padding: 10px 15px;
-                line-height: 2;
+                padding: 15px 15px;
+                line-height: 1.5;
             }
             .profile-social {
                 height: 40px;
@@ -83,21 +81,51 @@
         display: block;
         margin-top: 15px;
         .post {
+            position: relative;
             display: block;
             margin-top: 15px;
             padding: 15px 0;
+
+            .post-date {
+                position: absolute;
+                left: -100px;
+                top: 0;
+                width: 80px;
+                height: 80px;
+                background: $bg_color;
+            }
+
             .post-featured {
                 padding: 0 15px;
                 height: 150px;
-                overflow: hidden;
                 a {
                     display: block;
+                    height: 100%;
                 }
             }
 
+            .post-title {
+                padding: 0 20px;
+                margin-top: 15px;
+                font-size: 18px;
+                line-height: 1.5;
+            }
+
             .post-content {
-                padding: 0 15px;
-                height: 200px;
+                position: relative;
+                display: block;
+                margin-top: 15px;
+                padding: 0 20px;
+                line-height: 1.7;
+                font-size: 14px;
+                max-height: 160px;
+                overflow: hidden;
+            }
+
+            .post-mate {
+                margin-top: 15px;
+                padding: 0 20px;
+                height: 20px;
             }
         }
     }
