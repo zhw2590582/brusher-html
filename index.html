@@ -20,176 +20,168 @@
     <div class="wrap container">
         <!-- content begin -->
         <wired-card class="content">
-            <!-- header begin -->
-            <wired-card class="header">
-                <!-- notice begin -->
-                <wired-card class="notice f14">
-                    <div class="notice-inner text-ellipsis">
-                        <i class="fa fa-bell-o fl" aria-hidden="true"></i>
-                        Gloom 正式版发布，售价88元，欲购从速。Gloom 正式版发布，售价88元，欲购从速。
+            <div class="card-inner">
+                <!-- header begin -->
+                <wired-card class="header">
+                    <div class="card-inner">
+                        <!-- notice begin -->
+                        <wired-card class="notice f14">
+                            <div class="card-inner">
+                                <div class="notice-inner text-ellipsis">
+                                    <i class="fa fa-bell-o fl" aria-hidden="true"></i>
+                                    Gloom 正式版发布，售价88元，欲购从速。Gloom 正式版发布，售价88元，欲购从速。
+                                </div>
+                            </div>
+                        </wired-card>
+                        <!-- notice end -->
+
+                        <!-- profile begin -->
+                        <div class="profile">
+                            <div class="profile-header clearfix">
+                                <wired-card class="profile-avatar fl">
+                                    <a href="#">
+                                        <img src="./img/avatar.png" alt="">
+                                    </a>
+                                    <wired-tooltip position="top" text="喵喵喵..."></wired-tooltip>
+                                </wired-card>
+                                <div class="profile-name fl">
+                                    <p class="f18 text-ellipsis name_inner">
+                                        <a href="#">HarveyZack</a>
+                                    </p>
+                                    <p class="f14 text-ellipsis title_inner">
+                                        <i class="fa fa-check-circle f14" aria-hidden="true"></i>
+                                        一枚会设计的前端攻城狮
+                                    </p>
+                                </div>
+                            </div>
+                            <wired-card class="post-line"></wired-card>
+                            <div class="profile-content f14">
+                                Hi，老赵其实不老，只是个九零后青年，属性为UI设计，技能为前端开发，目标为自由插画师，爱互联网，爱美术，爱游戏，爱电影，爱音乐，爱萝莉，爱御姐...
+                            </div>
+                            <wired-card class="post-line"></wired-card>
+                            <ul class="profile-social f18 clearfix">
+                                <li>
+                                    <a href="http://weibo.com/qq717995589">
+                                        <i class="fa fa-weibo"></i>
+                                    </a>
+                                    <wired-tooltip position="bottom" text="九零后青年1"></wired-tooltip>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        <i class="fa fa-qq"></i>
+                                    </a>
+                                    <wired-tooltip position="bottom" text="九零后青年2"></wired-tooltip>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        <i class="fa fa-weixin"></i>
+                                    </a>
+                                    <wired-tooltip position="bottom" text="九零后青年3"></wired-tooltip>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/zhw2590582">
+                                        <i class="fa fa-github"></i>
+                                    </a>
+                                    <wired-tooltip position="bottom" text="九零后青年4"></wired-tooltip>
+                                </li>
+                                <li>
+                                    <a href="https://dribbble.com/HarveyZack">
+                                        <i class="fa fa-dribbble"></i>
+                                    </a>
+                                    <wired-tooltip position="bottom" text="九零后青年5"></wired-tooltip>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- profile end -->
+
+                        <!-- menu begin -->
+                        <wired-listbox horizontal selected="1" class="main-menu">
+                            <wired-item value="1" text="关于" class="menu-item"></wired-item>
+                            <wired-item value="2" text="归档" class="menu-item"></wired-item>
+                            <wired-item value="3" text="留意" class="menu-item"></wired-item>
+                            <wired-item value="4" text="邻居" class="menu-item"></wired-item>
+                            <wired-item value="5" text="主题" class="menu-item"></wired-item>
+                        </wired-listbox>
+                        <!-- menu end -->
                     </div>
                 </wired-card>
-                <!-- notice end -->
+                <!-- header end -->
 
-                <!-- profile begin -->
-                <div class="profile">
-                    <div class="profile-header clearfix">
-                        <wired-card class="profile-avatar fl">
-                            <a href="#">
-                                <img src="./img/avatar.png" alt="">
-                            </a>
-                            <wired-tooltip position="top" text="喵喵喵..."></wired-tooltip>
-                        </wired-card>
-                        <div class="profile-name fl">
-                            <p class="f18 text-ellipsis name_inner">
-                                <a href="#">HarveyZack</a>
-                            </p>
-                            <p class="f14 text-ellipsis title_inner">
-                                <i class="fa fa-check-circle f14" aria-hidden="true"></i>
-                                一枚会设计的前端攻城狮
-                            </p>
+                <!-- sidebar begin -->
+                <wired-card class="sidebar">
+                    <div class="slider-inner">
+                        sidebar
+                    </div>
+                </wired-card>
+                <!-- sidebar end -->
+
+                <!-- slider begin -->
+                <wired-card class="slider">
+                    <div class="slider-inner">
+                        <img src="./img/slider.png" alt="">
+                    </div>
+                </wired-card>
+                <!-- slider end -->
+
+                <!-- posts begin -->
+                <wired-card class="posts">
+                    <div class="card-inner">
+                        <!-- post begin -->
+                        <div class="post">
+                            <wired-card class="post-date">
+                                <div class="card-inner">
+                                    2017 年 09 月 23 日
+                                </div>
+                            </wired-card>
+                            <div class="post-featured">
+                                <a href="#" class="img-bg" style="background-image: url(./img/featured.png)"></a>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">
+                                    自适应WordPress主题Gloom–付费主题–88元自适应WordPress主题Gloom–付费主题–88元
+                                </a>
+                                <wired-card class="post-line sub"></wired-card>
+                            </div>
+                            <div class="post-content">
+                                算是我第五个wordpress主题了，平均下来每年出一个主题，也是不容易。 每个主题都像一个深坑，一旦踏入就要一直填补，好在有前面深坑的教训，每个新坑填得越来越快，但也是费体力脑力。 也根据前面四个主题的经验，越纹理化的主题越难定制和修改，我尝试提供各种方法让用户自定义我的主题。
+                                事实上用户更偏向于开箱即用的主题，更别说个性化，毕竟不是人人都想学代码写代码。 Gloom是三栏主题，有两个皮肤，貌似更偏向于扁平化，也是拟物化的我向扁平化大佬低头了。 整体框架也是继承于以往的主题，所以使用说明也是直接参考上
+                            </div>
+                            <div class="post-mate">
+                                post-mate
+                            </div>
                         </div>
+                        <wired-card class="post-line"></wired-card>
+                        <!-- post end -->
                     </div>
-                    <wired-card class="post-line"></wired-card>
-                    <div class="profile-content f14">
-                        Hi，老赵其实不老，只是个九零后青年，属性为UI设计，技能为前端开发，目标为自由插画师，爱互联网，爱美术，爱游戏，爱电影，爱音乐，爱萝莉，爱御姐...
-                    </div>
-                    <wired-card class="post-line"></wired-card>
-                    <ul class="profile-social f18 clearfix">
-                        <li>
-                            <a href="http://weibo.com/qq717995589">
-                                <i class="fa fa-weibo"></i>
-                            </a>
-                            <wired-tooltip position="bottom" text="九零后青年1"></wired-tooltip>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0)">
-                                <i class="fa fa-qq"></i>
-                            </a>
-                            <wired-tooltip position="bottom" text="九零后青年2"></wired-tooltip>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0)">
-                                <i class="fa fa-weixin"></i>
-                            </a>
-                            <wired-tooltip position="bottom" text="九零后青年3"></wired-tooltip>
-                        </li>
-                        <li>
-                            <a href="https://github.com/zhw2590582">
-                                <i class="fa fa-github"></i>
-                            </a>
-                            <wired-tooltip position="bottom" text="九零后青年4"></wired-tooltip>
-                        </li>
-                        <li>
-                            <a href="https://dribbble.com/HarveyZack">
-                                <i class="fa fa-dribbble"></i>
-                            </a>
-                            <wired-tooltip position="bottom" text="九零后青年5"></wired-tooltip>
-                        </li>
-                    </ul>
-                </div>
-                <!-- profile end -->
-
-                <!-- menu begin -->
-                <wired-listbox horizontal selected="1" class="main-menu">
-                    <wired-item value="1" text="关于" class="menu-item"></wired-item>
-                    <wired-item value="2" text="归档" class="menu-item"></wired-item>
-                    <wired-item value="3" text="留意" class="menu-item"></wired-item>
-                    <wired-item value="4" text="邻居" class="menu-item"></wired-item>
-                    <wired-item value="5" text="主题" class="menu-item"></wired-item>
-                </wired-listbox>
-                <!-- menu end -->
-            </wired-card>
-            <!-- header end -->
-
-            <!-- sidebar begin -->
-            <wired-card class="sidebar hide">
-                sidebar
-            </wired-card>
-            <!-- sidebar end -->
-
-            <!-- slider begin -->
-            <wired-card class="slider">
-                <div class="slider-inner">
-                    <img src="./img/slider.png" alt="">
-                </div>
-            </wired-card>
-            <!-- slider end -->
-
-            <!-- posts begin -->
-            <wired-card class="posts">
-                <!-- post begin -->
-                <div class="post">
-                    <wired-card class="post-date">
-                        2017 年 09 月 23 日
-                    </wired-card>
-                    <div class="post-featured">
-                        <a href="#" class="img-bg" style="background-image: url(./img/featured.png)"></a>
-                    </div>
-                    <div class="post-title">
-                        <a href="#">
-                            自适应WordPress主题Gloom–付费主题–88元自适应WordPress主题Gloom–付费主题–88元
-                        </a>
-                        <wired-card class="post-line sub"></wired-card>
-                    </div>
-                    <div class="post-content">
-                        算是我第五个wordpress主题了，平均下来每年出一个主题，也是不容易。 每个主题都像一个深坑，一旦踏入就要一直填补，好在有前面深坑的教训，每个新坑填得越来越快，但也是费体力脑力。 也根据前面四个主题的经验，越纹理化的主题越难定制和修改，我尝试提供各种方法让用户自定义我的主题。 事实上用户更偏向于开箱即用的主题，更别说个性化，毕竟不是人人都想学代码写代码。 Gloom是三栏主题，有两个皮肤，貌似更偏向于扁平化，也是拟物化的我向扁平化大佬低头了。 整体框架也是继承于以往的主题，所以使用说明也是直接参考上
-                    </div>
-                    <div class="post-mate">
-                        post-mate
-                    </div>
-                </div>
-                <wired-card class="post-line"></wired-card>
-                <!-- post end -->
-
-                <!-- post begin -->
-                <div class="post">
-                    <wired-card class="post-date">
-                        2017 年 09 月 23 日
-                    </wired-card>
-                    <div class="post-featured">
-                        <a href="#" class="img-bg" style="background-image: url(./img/featured.png)"></a>
-                    </div>
-                    <div class="post-title">
-                        <a href="#">
-                            自适应WordPress主题Gloom–付费主题–88元自适应WordPress主题Gloom–付费主题–88元
-                        </a>
-                        <wired-card class="post-line sub"></wired-card>
-                    </div>
-                    <div class="post-content">
-                        算是我第五个wordpress主题了，平均下来每年出一个主题，也是不容易。 每个主题都像一个深坑，一旦踏入就要一直填补，好在有前面深坑的教训，每个新坑填得越来越快，但也是费体力脑力。 也根据前面四个主题的经验，越纹理化的主题越难定制和修改，我尝试提供各种方法让用户自定义我的主题。 事实上用户更偏向于开箱即用的主题，更别说个性化，毕竟不是人人都想学代码写代码。 Gloom是三栏主题，有两个皮肤，貌似更偏向于扁平化，也是拟物化的我向扁平化大佬低头了。 整体框架也是继承于以往的主题，所以使用说明也是直接参考上
-                    </div>
-                    <div class="post-mate">
-                        post-mate
-                    </div>
-                </div>
-                <wired-card class="post-line"></wired-card>
-                <!-- post end -->
-            </wired-card>
-            <!-- posts end -->
+                </wired-card>
+                <!-- posts end -->
+            </div>
         </wired-card>
         <!-- content end -->
 
         <!-- pagination end -->
         <wired-card class="pagination">
-            pagination
+            <div class="card-inner">
+                pagination
+            </div>
         </wired-card>
         <!-- pagination end -->
 
         <!-- footer end -->
         <wired-card class="footer">
-            footer
+            <div class="card-inner">
+                footer
+            </div>
         </wired-card>
         <!-- footer end -->
     </div>
     <!-- wrap end -->
     <script src="./js/jquery.js"></script>
     <script src="./js/wired-elements.js"></script>
-    <script src="./js/brusher.js"></script>
     <script src="./js/main.js"></script>
     <script>
         (function ($) {
-            // 
+
         })(jQuery);
     </script>
 </body>

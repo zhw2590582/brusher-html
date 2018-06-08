@@ -358,20 +358,36 @@ template {
 }
 
 html {
-  -webkit-tap-highlight-color: transparent;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   height: 100%;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
-  font-family: 'Lantinghei SC', 'Open Sans', Arial, 'Hiragino Sans GB', 'Microsoft YaHei', '\5FAE\8F6F\96C5\9ED1', STHeiti, 'WenQuanYi Micro Hei', SimSun, sans-serif;
+  font-family: PingFang SC,Lantinghei SC,Helvetica Neue,Helvetica,Arial,Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1,STHeitiSC-Light,simsun,\\5B8B\4F53,WenQuanYi Zen Hei,WenQuanYi Micro Hei,"sans-serif";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100% !important;
+     -moz-text-size-adjust: 100% !important;
+      -ms-text-size-adjust: 100% !important;
+          text-size-adjust: 100% !important;
+  color: #000;
+  background-color: #f6f6f6;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  background-attachment: fixed;
+  height: 100%;
 }
 
 a {
   text-decoration: none;
   -webkit-transition: all 0.1s;
   transition: all 0.1s;
+  color: #958881;
+}
+
+a:hover {
+  color: #000;
 }
 
 ol,
@@ -501,26 +517,10 @@ img {
   margin: 0 auto;
 }
 
-body {
-  color: #666;
-  background-image: url(./img/body_bg.png);
-  background-position: 0 0;
-  background-attachment: fixed;
-  height: 100%;
-}
-
 .wrap {
   position: relative;
   height: 100%;
-  padding: 120px 0 0;
-}
-
-a {
-  color: #666;
-}
-
-a:hover {
-  color: #000;
+  padding: 150px 0 0;
 }
 
 .post-line {
@@ -539,11 +539,25 @@ a:hover {
   background-position: center center;
 }
 
+wired-card, wired-listbox {
+  display: block;
+  color: #000;
+}
+
+wired-card .card-inner, wired-listbox .card-inner {
+  color: #000;
+}
+
+.header .header-inner {
+  height: 50px;
+  line-height: 50px;
+}
+
 .content {
   position: relative;
   min-height: 1000px;
   margin-bottom: 20px;
-  background: #fff;
+  background: #f6f6f6;
 }
 
 .content .header {
@@ -558,7 +572,7 @@ a:hover {
   height: 32px;
   line-height: 32px;
   padding: 0 15px 0 30px;
-  background: #fff;
+  background: #f6f6f6;
 }
 
 .content .header .notice .fa {
@@ -568,7 +582,6 @@ a:hover {
 }
 
 .content .header .profile .profile-header {
-  display: block;
   padding: 0 15px 15px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -581,7 +594,7 @@ a:hover {
   padding: 5px;
   margin-top: -35px;
   margin-right: 15px;
-  background: #fff;
+  background: #f6f6f6;
 }
 
 .content .header .profile .profile-header .profile-name {
@@ -622,7 +635,6 @@ a:hover {
 }
 
 .content .header .main-menu {
-  display: block;
   height: 50px;
   line-height: 50px;
   --wired-combo-item-selected-bg: #fff59d;
@@ -635,10 +647,8 @@ a:hover {
 }
 
 .content .slider {
-  display: block;
   margin-top: 15px;
   padding: 15px;
-  color: #666;
 }
 
 .content .slider .slider-inner {
@@ -647,13 +657,11 @@ a:hover {
 }
 
 .content .posts {
-  display: block;
   margin-top: 15px;
 }
 
 .content .posts .post {
   position: relative;
-  display: block;
   margin-top: 15px;
   padding: 15px 0;
 }
@@ -664,7 +672,7 @@ a:hover {
   top: 0;
   width: 80px;
   height: 80px;
-  background: #fff;
+  background: #f6f6f6;
 }
 
 .content .posts .post .post-featured {
@@ -680,13 +688,12 @@ a:hover {
 .content .posts .post .post-title {
   padding: 0 20px;
   margin-top: 15px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
 }
 
 .content .posts .post .post-content {
   position: relative;
-  display: block;
   margin-top: 15px;
   padding: 0 20px;
   line-height: 1.7;
@@ -706,26 +713,21 @@ a:hover {
   top: 0;
   right: -270px;
   width: 250px;
-  background: #fff;
+  background: #f6f6f6;
   height: 100px;
   border-radius: 5px;
 }
 
 .pagination {
-  display: block;
   position: relative;
-  background: #fff;
+  background: #f6f6f6;
   height: 50px;
-  border-radius: 5px;
   margin-bottom: 20px;
 }
 
 .footer {
-  display: block;
   position: relative;
-  background: #fff;
+  background: #f6f6f6;
   height: 200px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
 }
 /*# sourceMappingURL=style.css.map */

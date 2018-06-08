@@ -22,7 +22,6 @@
         }
         .profile {
             .profile-header {
-                display: block;
                 padding: 0 15px 15px;
                 background-repeat: no-repeat;
                 background-size: cover;
@@ -70,7 +69,6 @@
             }
         }
         .main-menu {
-            display: block;
             height: 50px;
             line-height: 50px;
             --wired-combo-item-selected-bg: #fff59d;
@@ -83,10 +81,8 @@
     }
     
     .slider {
-        display: block;
         margin-top: 15px;
         padding: 15px;
-        color: #666;
         .slider-inner {
             height: 250px;
             overflow: hidden;
@@ -94,11 +90,9 @@
     }    
 
     .posts {
-        display: block;
         margin-top: 15px;
         .post {
             position: relative;
-            display: block;
             margin-top: 15px;
             padding: 15px 0;
 
@@ -123,13 +117,12 @@
             .post-title {
                 padding: 0 20px;
                 margin-top: 15px;
-                font-size: 18px;
+                font-size: 20px;
                 line-height: 1.5;
             }
 
             .post-content {
                 position: relative;
-                display: block;
                 margin-top: 15px;
                 padding: 0 20px;
                 line-height: 1.7;

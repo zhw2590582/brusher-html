@@ -10,21 +10,32 @@
 }
 
 html {
-  -webkit-tap-highlight-color: transparent;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   height: 100%;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
-  font-family: 'Lantinghei SC', 'Open Sans', Arial, 'Hiragino Sans GB',
-    'Microsoft YaHei', '\5FAE\8F6F\96C5\9ED1', STHeiti, 'WenQuanYi Micro Hei',
-    SimSun, sans-serif;
+  font-family: PingFang SC,Lantinghei SC,Helvetica Neue,Helvetica,Arial,Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1,STHeitiSC-Light,simsun,\\5B8B\4F53,WenQuanYi Zen Hei,WenQuanYi Micro Hei,"sans-serif";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-size-adjust: 100%!important;
+  color: $f_color;
+  background-color: $body_bg;
+  // background-image: url(./img/body_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  background-attachment: fixed;
+  height: 100%;
 }
 
 a {
   text-decoration: none;
   transition: all 0.1s;
+  color: $a_color;
+  &:hover {
+    color: $a_h_color;
+  }
 }
 
 ol,
@@ -154,33 +165,16 @@ img {
   margin: 0 auto;
 }
 
-body {
-  color: $f_color;
-  background-image: url(./img/body_bg.png);
-  // background-size: cover;
-  background-position: 0 0;
-  background-attachment: fixed;
-  height: 100%;
-}
-
 .wrap {
   position: relative;
   height: 100%;
   padding: $top_h 0 0;
 }
 
-a {
-  color: $a_color;
-  &:hover {
-    color: $a_h_color;
-  }
-}
-
 .post-line {
   width: 100%;
   display: block;
   height: 2px;
-
   &.sub {
     opacity: 0.5;
   }
@@ -190,4 +184,12 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+
+wired-card, wired-listbox {
+  display: block;
+  color: $line_color;
+  .card-inner {
+    color: $f_color;
+  }
 }
